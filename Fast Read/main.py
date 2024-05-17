@@ -105,8 +105,8 @@ is_reading = False
 # Screen Configuration
 screen = tk.Tk()
 screen.configure(background='gray')
-img = tk.PhotoImage(file='images/book icon.png')
-screen.iconphoto(False, img)
+#img = tk.PhotoImage(file='images/book icon.png') # find the image in the folder
+#screen.iconphoto(False, img) # define the screen icon
 screen.geometry('640x480')
 screen.title('Fast Read')
 
